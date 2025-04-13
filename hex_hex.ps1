@@ -1,5 +1,5 @@
-$filePath = "script.ps1"
-$outputFile = "script.hex"
+$filePath = "hex_exe.ps1"
+$outputFile = "hex_exe.hex"
 
 # Read all bytes from the file
 $bytes = [System.IO.File]::ReadAllBytes($filePath)
