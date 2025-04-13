@@ -11,7 +11,7 @@ class Program
     static void Main(string[] args)
     {
         // Read the hex string from file
-        string hex = ReadHexFile("script.hex");
+        string hex = ReadHexFile("hex_exe.hex");
 
         // Convert the hex string to a byte array
         byte[] scriptBytes = ConvertHexToBytes(hex);
